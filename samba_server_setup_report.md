@@ -117,8 +117,8 @@ systemctl enable nmb
 
 - 사용자명: `samba`  
 - 비밀번호: 등록된 SAMBA 비밀번호
-- 
-![image](https://github.com/user-attachments/assets/d5bed147-58c6-4e11-9279-1e64f9fc81f2)
+  
+- ![image](https://github.com/user-attachments/assets/d5bed147-58c6-4e11-9279-1e64f9fc81f2)
 
 ---
 

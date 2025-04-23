@@ -26,7 +26,7 @@
 
 ## ✅ 3. 상세 작업 내역
 
-### 📦 3.1 ISO 기반 yum Repository 구성
+### 3.1 ISO 기반 yum Repository 구성
 
 ```bash
 mkdir -p /mnt/centos
@@ -52,7 +52,7 @@ enabled=0
 
 ---
 
-### ⚙️ 3.2 SAMBA 및 클라이언트 설치
+### 3.2 SAMBA 및 클라이언트 설치
 
 ```bash
 yum install samba samba-client -y
@@ -60,7 +60,7 @@ yum install samba samba-client -y
 
 ---
 
-### 📂 3.3 공유 디렉토리 생성
+### 3.3 공유 디렉토리 생성
 
 ```bash
 mkdir -p /srv/samba/share
@@ -69,7 +69,7 @@ chmod -R 777 /srv/samba/share
 
 ---
 
-### 🧾 3.4 SAMBA 설정 (`/etc/samba/smb.conf`)
+### 3.4 SAMBA 설정 (`/etc/samba/smb.conf`)
 
 ```ini
 [share]
@@ -83,7 +83,7 @@ chmod -R 777 /srv/samba/share
 
 ---
 
-### 👤 3.5 사용자 계정 및 SAMBA 사용자 등록
+### 3.5 사용자 계정 및 SAMBA 사용자 등록
 
 ```bash
 useradd samba
@@ -101,7 +101,7 @@ pdbedit -L
 
 ---
 
-### 🔁 3.6 SAMBA 서비스 실행 및 자동 시작 설정
+### 3.6 SAMBA 서비스 실행 및 자동 시작 설정
 
 ```bash
 systemctl restart smb
@@ -112,7 +112,7 @@ systemctl enable nmb
 
 ---
 
-### 🧪 3.7 Windows 클라이언트 접속 테스트
+### 3.7 Windows 클라이언트 접속 테스트
 
 - 실행창(Win + R)에 입력:
 

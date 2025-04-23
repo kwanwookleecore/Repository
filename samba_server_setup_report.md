@@ -96,6 +96,9 @@ smbpasswd -a samba   # 비밀번호 입력
 pdbedit -L
 ```
 
+![image](https://github.com/user-attachments/assets/aa35e757-56ff-4a4e-9af8-31f88e835324)
+
+
 ---
 
 ### 🔁 3.6 SAMBA 서비스 실행 및 자동 시작 설정
